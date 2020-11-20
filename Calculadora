@@ -1,0 +1,27 @@
+#Faça um programa que mostre um menu para o usuário escolher uma operação ou sair do
+programa.
+#Por exemplo: Soma(+), Subtração(-), Multiplicação(*), Divisão(/), Sair(0)
+operação = input("Digite + para Soma, - para Subtração, * para Multiplicação, / para Divisão, 0 para
+Sair:")
+while operação == "+" or operação == "-" or operação == "*" or operação == "/" or operação == "0":
+ if operação == "+":
+ a = float(input("Digite um número:"))
+ b = float(input("Digite outro número:"))
+ soma = a + b
+ print ("A soma é:", soma)
+ operação = input("Digite + para Soma, - para Subtração, * para Multiplicação, / para Divisão, 0
+para Sair:")
+ if operação == "-":
+ a = float(input("Digite um número:"))
+ b = float(input("Digite outro número:"))
+ subtração = a - b
+ print ("A subtração é:", subtração)
+ operação = input("Digite + para Soma, - para Subtração, * para Multiplicação, / para Divisão, 0
+para Sair:")
+ if operação == "*":
+ a = float(input("Digite um número:"))
+ b = float(input("Digite outro número:"))
+ multiplicação = a * b
+ print ("A multiplicação é:", multiplicação)
+ operação = input("Digite + para Soma, - para Subtração, * para Multiplicação, / para Divisão, 0
+para Sair:")
